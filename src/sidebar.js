@@ -3,27 +3,27 @@ import React from "react"
 export default function SideBar () {
     const sugestions = [
         {
-            img: "../public/assets/img/bad.vibes.memes.svg",
+            img: "../assets/img/bad.vibes.memes.svg",
             name: "bad.vibes.memes",
             reason: "Segue você"
         },
         {
-            img: "../public/assets/img/chibirdart.svg",
+            img: "../assets/img/chibirdart.svg",
             name: "chibirdart",
             reason: "Segue você"
         },
         {
-            img: "../public/assets/img/razoesparaacreditar.svg",
+            img: "../assets/img/razoesparaacreditar.svg",
             name: "razoesparaacreditar",
             reason: "Novo no Instagram"
         },
         {
-            img: "../public/assets/img/adorable_animals.svg",
+            img: "../assets/img/adorable_animals.svg",
             name: "adorable_animals",
             reason: "Segue você"
         },
         {
-            img: "../public/assets/img/smallcutecats.svg",
+            img: "../assets/img/smallcutecats.svg",
             name: "smallcutecats",
             reason: "Segue você"
         }
@@ -32,7 +32,7 @@ export default function SideBar () {
     return (
         <div class='sidebar'>
             <div class='usuario'>
-                <img src="../public/assets/img/catanacomics.svg" />
+                <img src="../assets/img/catanacomics.svg" />
                 <div class='texto'>
                     <strong>catanacomics</strong>
                     Catana

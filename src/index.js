@@ -1,9 +1,13 @@
-import ReactDOM from './React'
+import ReactDOM from 'react-dom'
+import SideBar from './sidebar'
+
 
 function App () {
     return (
-        <div></div>
+        <div>
+            <SideBar />
+        </div>
     )
 }
 
-ReactDOM.render(App, document.querySelector('.root'))
+ReactDOM.render(<App />, document.querySelector('.root'))
